@@ -7,10 +7,12 @@ namespace App
         static void Main(string[] args)
         {
             Console.WriteLine();
-            Console.WriteLine("What's your name? ");
+            Console.Write("What's your name? ");
             var name = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine("Hello {0}", name);
+            Console.WriteLine("Hello {0}!!", name);
+            Console.WriteLine();
+            Console.WriteLine("Press enter to continue...");
             Console.ReadLine();
         }
     }
