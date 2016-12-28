@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App
 {
@@ -10,6 +6,12 @@ namespace App
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
+            Console.WriteLine("What's your name? ");
+            var name = Console.ReadLine();
+            Console.WriteLine();
+            Console.WriteLine("Hello {0}", name);
+            Console.ReadLine();
         }
     }
 }
