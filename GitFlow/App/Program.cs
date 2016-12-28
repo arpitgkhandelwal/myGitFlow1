@@ -6,6 +6,9 @@ namespace App
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Blue;
+            
             Console.WriteLine();
             Console.Write("What's your name? ");
             var name = Console.ReadLine();
