@@ -7,7 +7,7 @@ namespace App
         static void Main(string[] args)
         {
             Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Black;
             
             Console.WriteLine();
             Console.Write("What's your name? ");
